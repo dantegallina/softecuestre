@@ -1,0 +1,77 @@
+<style>
+#ctabla {	
+	display: table;
+	
+}
+
+.cfila {	
+	display: table-row;
+	
+}
+
+.ccol {	
+	display: table-cell;
+	margin: 0;
+	border:1px solid #CCCCCC;
+	padding:10px;
+	
+}
+
+label {
+    background: #F3F3F3;
+        
+}
+
+input {
+    background-color: #F3F3F3;
+    border: 1px solid #CCCCCC;
+
+}
+
+
+.loader, .ok {
+	float: right;
+	/*margin-right:50px;*/
+}
+</style>
+
+<style>
+#content {	
+	float:left;
+	margin-top:20px;
+	border:1px solid #CCCCCC;
+	padding:10px;
+}
+
+.input {
+	float:left;
+	width:95%;
+}
+
+label {
+    background: none repeat scroll 0 0 #F3F3F3;
+    display: block;
+    float: left;
+    font-size: 13px;
+    font-weight: bold;
+    height: 24px;
+    margin: 0 10px 0 0;
+    padding: 3px 7px;
+    
+}
+
+input {
+    background-color: #F3F3F3;
+    border: 1px solid #CCCCCC;
+    padding: 7px;
+    margin-left:0px;
+    margin-bottom:15px;
+    float:left;
+}
+
+
+.loader, .ok {
+	float: right;
+	/*margin-right:50px;*/
+}
+</style>

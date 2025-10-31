@@ -1,0 +1,111 @@
+/* General */
+   BODY {font-family: verdana,arial, sans-serif; font-size: 10pt;}
+
+/* Contenido */
+   H1 {font-size: 16pt; font-weight: bold; color: #0066CC;}
+   H2 {font-size: 12pt; font-weight: bold; font-style: italic; color: black;}
+   H3 {font-size: 10pt; font-weight: bold; color: black;}
+
+/* Formulario */
+   FORM.borde {border: 1px dotted #0066CC; padding: 0.5em 0.2em; width: 80%;}
+   FORM P {clear: left; margin: 0.2em; padding: 0.1em;}
+   FORM P LABEL {float: left; width: 25%; font-weight: bold;}
+   .error {color: red;}
+   
+/* Tablas */
+   TH {font-size: 10pt; font-weight: bold; color: white; background: #0066CC; text-align: left;}
+   TD {font-size: 10pt; background: #CCCCCC;}
+   TD.derecha {font-size: 10pt; text-align: right; background: #FFFFFF;}
+   TD.izquierda {font-size: 10pt; text-align: left; background: #FFFFFF;}
+
+/*--------------------------------------------------------*/
+/*Header*/
+#ctabla {
+    display: table;
+
+}
+
+.cfila {
+    display: table-row;
+
+}
+
+.ccol {
+    display: table-cell;
+    margin: 0;
+    border:1px solid #CCCCCC;
+    padding:5px;
+
+}
+
+label {
+    background: #F3F3F3;
+
+}
+
+input {
+    background-color: #F3F3F3;
+    border: 1px solid #CCCCCC;
+
+}
+
+
+.loader, .ok {
+    float: right;
+    /*margin-right:50px;*/
+}
+/*---------------------------------------------------------------------------------------------------------------*/
+/*FORM*/
+#content {
+    float:left;
+    margin-top:20px;
+    border:1px solid #CCCCCC;
+    padding:10px;
+}
+
+#content_name_form.input {
+    float:left;
+    width:95%;
+}
+
+#content_name_form label {
+    background: none repeat scroll 0 0 #F3F3F3;
+    display: block;
+    float: left;
+    font-size: 13px;
+    font-weight: bold;
+    height: 24px;
+    margin: 0 10px 0 0;
+    padding: 3px 7px;
+
+}
+
+#content_name_form input {
+    background-color: #F3F3F3;
+    border: 1px solid #cccccc ;
+    padding: 7px;
+    margin-left:0px;
+    margin-bottom:15px;
+    float:left;
+}
+
+.red-cell {
+    background: #F00; /* Or some other color */
+}
+
+.green-cell {
+    background: #008000; /* Or some other color */
+}
+
+.neutro-cell {
+    background: #DEDEBE; /* Or some other color */
+}
+
+/*--------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------ PREUEBA -----------------------------------------------------*/
+.prueba-int{width: 85px}
+.prueba-int input{width: 80px}
+
+#content_name_form input{width: 104px}
+.form-int{width: 75px}
+.form-int input{width: 70px}
