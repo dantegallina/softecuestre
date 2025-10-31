@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="http://www.softecuestre.com.ar/index.php" title="Softecuestre"  description="FEA, FEI, ecuestre, hipismo, jump, salto, endurance, equitacion, software, equs, hipico, caballo, horse, concurso, carrera, competencia, calendario, club, administracion, jurado, resultado, juez, federacion, rider, jinete, argentina">
+	<siteMapNode url="http://www.softecuestre.com.ar/tele.php" title="Telecuestre"  description="Telecuestre" />
+	<siteMapNode url="http://www.softecuestre.com.ar/schedule.php" title="Calendario"  description="Schedule" />
+    <siteMapNode url="http://www.softecuestre.com.ar/ccendurance.php" title="Centro de Cómputos Endurance"  description="ccendurance" />
+    <siteMapNode url="http://www.softecuestre.com.ar/login.php" title="En Línea"  description="login" />
+    <siteMapNode url="http://www.softecuestre.com.ar/ecugest.php" title="EquGest"  description="Software de Administración EquGest" />
+    <siteMapNode url="http://www.softecuestre.com.ar/contacto.php" title="Contacto"  description="Contacto" />
+  </siteMapNode>
+</siteMap>
