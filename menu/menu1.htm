@@ -1,0 +1,35 @@
+﻿<script type="text/javascript">
+	
+	$(document).ready(
+		function()
+		{
+			$('#dock').Fisheye(
+				{
+					maxWidth: 50,
+					items: 'a',
+					itemsText: 'span',
+					container: '.dock-container',
+					itemWidth: 40,
+					proximity: 90,
+					halign : 'center'
+				}
+			)
+		}
+	);
+
+</script>
+
+
+<div class="dock" id="dock">
+  <div class="dock-container">
+    <a class="dock-item" href="http://www.softecuestre.com.ar/"><img src="http://www.softecuestre.com.ar/images/home.png" alt="Inicio" /><span>Inicio</span></a>
+    
+    <a class="dock-item" href="#"><img src="http://www.softecuestre.com.ar/images/salto.png" alt="CC Salto" /><span>Centro de Cómputos Salto</span></a> 
+    <a class="dock-item" href="http://www.softecuestre.com.ar/src/inscripciones/inscripciones.php"><img src="http://www.softecuestre.com.ar/images/history.png" alt="Inscripciones Nominales" /><span>Inscripciones On line</span></a>
+    <a class="dock-item" href="http://www.softecuestre.com.ar/src/ecugest.php"><img src="http://www.softecuestre.com.ar/images/history.png" alt="EquGest" /><span>Software de Administración EquGest</span></a>
+    <a class="dock-item" href="#"><img src="http://www.softecuestre.com.ar/images/login.png" alt="Acceso a Sistemas en Línea" /><span>Acceso a Sistemas en Línea</span></a>
+       
+    <a class="dock-item" href="#"><img src="http://www.softecuestre.com.ar/images/rss.png" alt="Acerca de Softecuestre.com" /><span>Acerca de Softecuestre.com</span></a>
+    <a class="dock-item" href="http://www.softecuestre.com.ar/src/contacto.php"><img src="http://www.softecuestre.com.ar/images/email.png" alt="Contacto" /><span>Contacto</span></a>
+  </div>
+</div>
