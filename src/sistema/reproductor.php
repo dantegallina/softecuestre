@@ -1,0 +1,2 @@
+#player
+<iframe id="player" name="streaming-frame" src="https://player.streamingconnect.com/cliente/index.php?id=99" width="635" height="356" marginwidth="0" scrolling="no" frameborder="0" allowfullscreen="" allowtransparency="true" webkitallowfullscreen="true" mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen"></iframe>
